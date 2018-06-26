@@ -53,7 +53,7 @@ class EditProfileD extends Component {
 
 
 
-		fetch('http://localhost:3000/donor/'+this.state.eeemm)
+		fetch('http://204.48.28.197/donor/'+this.state.eeemm)
 				.then (results =>{
 				return results.json();
 				}).then(data =>{
@@ -134,7 +134,7 @@ class EditProfileD extends Component {
 	
       
 //this.sendMail("Deema.a3a@gmail.com")
-fetch('http://localhost:3000/donor/'+this.state.eeemm,
+fetch('http://204.48.28.197/donor/'+this.state.eeemm,
         {
           method: 'PUT',
           headers: {
