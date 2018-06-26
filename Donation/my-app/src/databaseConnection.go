@@ -7,10 +7,10 @@ import (
 )
 
 const (
-  host     = "localhost"
+  host     = "204.48.28.197"
   port     = 5432
   user     = "deemaahmed"
-  dbname   = "users_data"
+  dbname   = "deemaahmed"
 )
 
 
