@@ -56,7 +56,7 @@ gotoaboutus(){
 
 
 
-		fetch('http://localhost:3000/hospital/'+this.state.eeemm)
+		fetch('http://204.48.28.197/hospital/'+this.state.eeemm)
 				.then (results =>{
 				return results.json();
 				}).then(data =>{
@@ -119,7 +119,7 @@ if(str=="Donor"){
 	//Get Blood type
 	var e = document.getElementById("mySelect1");
 	var bloodtyp = e.options[e.selectedIndex].value;
-	fetch('http://localhost:3000/donor',
+	fetch('http://204.48.28.197/donor',
         {
           method: 'POST',
           headers: {
@@ -136,7 +136,7 @@ if(str=="Donor"){
           })
         });
 //this.sendMail("Deema.a3a@gmail.com")
-fetch('http://localhost:3000/donor/'+email1,
+fetch('http://204.48.28.197/donor/'+email1,
         {
           method: 'PUT',
           headers: {
@@ -153,7 +153,7 @@ fetch('http://localhost:3000/donor/'+email1,
           })
         });
 
-fetch('http://localhost:3000/donor/'+"Deema@gmail.com",
+fetch('http://204.48.28.197/donor/'+"Deema@gmail.com",
         {
           method: 'DELETE',
           headers: {
@@ -171,7 +171,7 @@ window.location.assign("/Login");
 
 	else{
 
-		fetch('http://localhost:3000/hospital',
+		fetch('http://204.48.28.197/hospital',
         {
           method: 'POST',
           headers: {
