@@ -36,7 +36,7 @@ componentWillMount(){
 		console.log(email) 
 		this.state.eeemm=email;
 		console.log(this.state.eeemm)
-			fetch('http://localhost:3000/don_request2')
+			fetch('http://204.48.28.197/don_request2')
  		.then (results =>{
 		return results.json();
 		}).then(data =>{
