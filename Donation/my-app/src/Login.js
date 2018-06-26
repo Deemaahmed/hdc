@@ -52,7 +52,7 @@ class Login extends Component {
    				var ty = ""
 
    				///Check if it is a hospital ?
-				fetch('http://localhost:3000/donor/'+em)
+				fetch('http://204.48.28.197/donor/'+em)
 				.then (results =>{
 				return results.json();
 				}).then(data =>{
@@ -69,7 +69,7 @@ class Login extends Component {
 			//this.samePassword("Donor")
 			 console.log("It is not a donor");
 
-					fetch('http://localhost:3000/hospital/'+em)
+					fetch('http://204.48.28.197/hospital/'+em)
 						.then (results =>{
 							return results.json();
 					}).then(data =>{	
