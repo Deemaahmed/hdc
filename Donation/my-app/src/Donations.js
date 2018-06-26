@@ -31,7 +31,7 @@ class Donations extends Component {
 		this.state.eeemm=email;
 		console.log(this.state.eeemm)
 
-			fetch('http://localhost:3000/don_request2/'+this.state.eeemm)
+			fetch('http://204.48.28.197/don_request2/'+this.state.eeemm)
 			.then (results =>{
 			return results.json();
 			}).then(data =>{
@@ -158,7 +158,7 @@ delete(e){
 
 			console.log(em)
 			
-fetch('http://localhost:3000/don_request2/'+em,
+fetch('http://204.48.28.197/don_request2/'+em,
         {
           method: 'DELETE',
           headers: {
