@@ -76,7 +76,7 @@ this.submitData = this.submitData.bind(this);
 
 
 
-   		fetch('http://localhost:3000/don_request2',
+   		fetch('http://204.48.28.197/don_request2',
         {
           method: 'POST',
           headers: {
