@@ -43,7 +43,7 @@ class Profile extends Component {
 
 
 
-		fetch('http://localhost:3000/donor/'+this.state.eeemm)
+		fetch('http://204.48.28.197/donor/'+this.state.eeemm)
 				.then (results =>{
 				return results.json();
 				}).then(data =>{
